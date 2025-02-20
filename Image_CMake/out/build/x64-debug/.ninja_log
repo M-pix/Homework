@@ -1,6 +1,5 @@
 # ninja log v6
-7	650	7615120416600191	Image_CMake/CMakeFiles/Image_CMake.dir/Image_CMake.cpp.obj	e925a06c15b461e9
-651	924	7615120423124184	Image_CMake/Image_CMake.exe	397cc249f61f1b19
-4	657	7615122850063435	Image_CMake/CMakeFiles/Image_CMake.dir/main.cpp.obj	5474fc32c528264e
-18	674	7615123002166862	Image_CMake/CMakeFiles/Image_CMake.dir/Image.cpp.obj	ed76aa4c4ce4f50a
-675	895	7615123008658526	Image_CMake/Image_CMake.exe	2175cabd63755a87
+7	634	7617628712170379	Image_CMake/CMakeFiles/Image_CMake.dir/Image_CMake.cpp.obj	e925a06c15b461e9
+632	795	7617630090549888	Image_CMake/Image_CMake.exe	5035cd1ca9b3e73e
+5	631	7617630084290767	Image_CMake/CMakeFiles/Image_CMake.dir/main.cpp.obj	5474fc32c528264e
+4	171	7617652417578365	build.ninja	7460b59d36e03d78

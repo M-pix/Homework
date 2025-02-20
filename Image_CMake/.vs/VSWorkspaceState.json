@@ -13,12 +13,11 @@
   },
   "ExpandedNodes": [
     "",
-    "\\Image_CMake",
+    "\\Image",
     "\\out",
-    "\\packages",
-    "\\packages\\Microsoft.googletest.v140.windesktop.msvcstl.dyn.rt-dyn.1.8.1.7",
-    "\\Test_Image_CMake"
+    "\\out\\build",
+    "\\Test_Image"
   ],
-  "SelectedNode": "\\Test_Image_CMake\\test.cpp",
+  "SelectedNode": "\\Image\\CMakeLists.txt",
   "PreviewInSolutionExplorer": false
 }

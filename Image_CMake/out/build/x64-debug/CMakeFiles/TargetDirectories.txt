@@ -1,5 +1,8 @@
+C:/Users/Максим/source/repos/Image_CMake/out/build/x64-debug/CMakeFiles/Image_CMake.dir
+C:/Users/Максим/source/repos/Image_CMake/out/build/x64-debug/CMakeFiles/test.dir
 C:/Users/Максим/source/repos/Image_CMake/out/build/x64-debug/CMakeFiles/edit_cache.dir
 C:/Users/Максим/source/repos/Image_CMake/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Максим/source/repos/Image_CMake/out/build/x64-debug/Image_CMake/CMakeFiles/Image_CMake.dir
-C:/Users/Максим/source/repos/Image_CMake/out/build/x64-debug/Image_CMake/CMakeFiles/edit_cache.dir
-C:/Users/Максим/source/repos/Image_CMake/out/build/x64-debug/Image_CMake/CMakeFiles/rebuild_cache.dir
+C:/Users/Максим/source/repos/Image_CMake/out/build/x64-debug/Image/CMakeFiles/image.dir
+C:/Users/Максим/source/repos/Image_CMake/out/build/x64-debug/Image/CMakeFiles/test.dir
+C:/Users/Максим/source/repos/Image_CMake/out/build/x64-debug/Image/CMakeFiles/edit_cache.dir
+C:/Users/Максим/source/repos/Image_CMake/out/build/x64-debug/Image/CMakeFiles/rebuild_cache.dir

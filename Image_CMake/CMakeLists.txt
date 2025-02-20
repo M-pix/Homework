@@ -4,6 +4,7 @@
 cmake_minimum_required (VERSION 3.8)
 
 # Enable Hot Reload for MSVC compilers if supported.
+
 if (POLICY CMP0141)
   cmake_policy(SET CMP0141 NEW)
   set(CMAKE_MSVC_DEBUG_INFORMATION_FORMAT "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>")
@@ -11,5 +12,14 @@ endif()
 
 project ("Image_CMake")
 
+set(CMAKE_CXX_STANDART 17)
+set(CMAKE_CXX_STANDART_REQUIRED True)
+include_directories(include)
+
+add_executable(Image_CMake Image/main.cpp Image/Image.cpp Test_Image/test.cpp Test_Image/main.cpp)
+
+
+enable_testing()
 # Include sub-projects.
-add_subdirectory ("Image_CMake")
+add_subdirectory ("Image")
+

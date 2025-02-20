@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Максим/source/repos/Image_CMake/out/build/x64-debug/Image_CMake/cmake_install.cmake")
+  include("C:/Users/Максим/source/repos/Image_CMake/out/build/x64-debug/Image/cmake_install.cmake")
 
 endif()
 
