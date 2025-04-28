@@ -1,0 +1,5 @@
+C:/Users/deima/Documents/proga/My_Vector/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/deima/Documents/proga/My_Vector/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/deima/Documents/proga/My_Vector/out/build/x64-debug/My_Vector/CMakeFiles/My_Vector.dir
+C:/Users/deima/Documents/proga/My_Vector/out/build/x64-debug/My_Vector/CMakeFiles/edit_cache.dir
+C:/Users/deima/Documents/proga/My_Vector/out/build/x64-debug/My_Vector/CMakeFiles/rebuild_cache.dir
