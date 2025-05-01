@@ -10,17 +10,24 @@ Node::Node(const std::tuple<std::string, std::string, long>& position) : Node() 
 
 Node::Node(const Node& position) : Node() {
 	node = position.node;
+	//std::tuple<std::string,std::string,long> tmp = node;
+	//Node tmp(position);
+	//std::swap(tmp.node, node);
 }
 
 
 Node::Node(Node&& position) : Node() {
 	node = position.node;
+	//Node tmp(position);
+	//std::swap(tmp.node, node);
 }
 
 
 Node& Node::operator =(const Node& position) {
 	if (this != &position) {
 		node = position.node;
+		//Node tmp(position);
+		//std::swap(tmp.node, node);
 	}
 	return *this;
 }

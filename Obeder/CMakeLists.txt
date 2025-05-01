@@ -19,4 +19,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 enable_testing()
 
 add_subdirectory (Obeder)
-#add_subdirectory (Test_Image)
+add_subdirectory (Tests)

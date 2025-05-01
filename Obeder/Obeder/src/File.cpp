@@ -5,6 +5,10 @@
 namespace function {
 	int len(int x) {
 		int len = 0;
+		if (x < 0) {
+			len += 1;
+			x = abs(x);
+		}
 		while (x > 0) {
 			x /= 10;
 			len += 1;
@@ -12,7 +16,6 @@ namespace function {
 		return len;
 	}
 }
-
 
 File::File(const std::string& name) : File() {
 	s_fname = name;
@@ -36,6 +39,7 @@ File::File(const char* name) : File() {
 File::File(const File& file) :File() {
 	s_fname = file.s_fname;
 	node = file.node;
+	str_node = file.str_node;
 }
 
 File::~File() {
@@ -118,7 +122,7 @@ void File::write(const std::string& path) {
 		{
 			Node tmp = str_node.back();
 			write << tmp.get_time() << " " << tmp.get_id() << " " << tmp.get_sum() << std::endl;
-			node.pop_back();
+			str_node.pop_back();
 		}
 	}
 	write.close();
@@ -132,7 +136,7 @@ void File::write(const char* path) {
 		while (str_node.size() > 0) {
 			Node tmp = str_node.back();
 			write << tmp.get_time() << " " << tmp.get_id() << " " << tmp.get_sum() << std::endl;
-			node.pop_back();
+			str_node.pop_back();
 		}
 	}
 	write.close();
@@ -155,6 +159,10 @@ bool File::exist() const {
 		std::cout << error_message;
 		return false;
 	}
+}
+
+void File::set_data_out(std::vector<Node> data) {
+	str_node = data; 
 }
 
 std::string File::get_filename() const {

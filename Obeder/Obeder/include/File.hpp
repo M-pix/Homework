@@ -37,6 +37,8 @@ public:
 	bool exist() const;
 
 public:
+	void set_data_out(std::vector<Node> data);
+public:
 	std::string get_filename() const;
 	std::vector<Node> get_position() const;
 };
