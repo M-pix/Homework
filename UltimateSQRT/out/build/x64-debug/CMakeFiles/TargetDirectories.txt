@@ -1,0 +1,11 @@
+C:/Users/Максим/source/repos/UltimateSQRT/out/build/x64-debug/CMakeFiles/test.dir
+C:/Users/Максим/source/repos/UltimateSQRT/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/Максим/source/repos/UltimateSQRT/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Максим/source/repos/UltimateSQRT/out/build/x64-debug/UltimateSQRT/CMakeFiles/UltimateSQRT.dir
+C:/Users/Максим/source/repos/UltimateSQRT/out/build/x64-debug/UltimateSQRT/CMakeFiles/test.dir
+C:/Users/Максим/source/repos/UltimateSQRT/out/build/x64-debug/UltimateSQRT/CMakeFiles/edit_cache.dir
+C:/Users/Максим/source/repos/UltimateSQRT/out/build/x64-debug/UltimateSQRT/CMakeFiles/rebuild_cache.dir
+C:/Users/Максим/source/repos/UltimateSQRT/out/build/x64-debug/TESTUltimateSQRT/CMakeFiles/TESTUltimateSQRT.dir
+C:/Users/Максим/source/repos/UltimateSQRT/out/build/x64-debug/TESTUltimateSQRT/CMakeFiles/test.dir
+C:/Users/Максим/source/repos/UltimateSQRT/out/build/x64-debug/TESTUltimateSQRT/CMakeFiles/edit_cache.dir
+C:/Users/Максим/source/repos/UltimateSQRT/out/build/x64-debug/TESTUltimateSQRT/CMakeFiles/rebuild_cache.dir
