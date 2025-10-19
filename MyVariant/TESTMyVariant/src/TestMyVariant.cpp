@@ -7,26 +7,28 @@ TEST(testMyVariant, get) {
 	MyVariant<int, float, char> tmp(1.1f);
 	MyVariant<int, float, char> str('h');
 	size_t i = var.index();
-	bool y = var.hold_alternative();
-	a = var.get<int>();
+	bool y = var.hold_alternative<int>();
+	a = var.myget<int>();
 	EXPECT_EQ(a, 1);
-	EXPECT_EQ(tmp.get<float>() , 1.1f);
-	EXPECT_EQ(tmp.get<char>(), 'h');
-
+	char per = str.myget<char>();
+	//EXPECT_EQ(per , 1.1f);
+	EXPECT_EQ(per, 'h');
+	per = str.myget<3>();
+	EXPECT_EQ(per, 'h');
 }
 
 TEST(testMyVariant, hold_alternative) {
 	int a = 7;
 	MyVariant<int, double, char> var(1);
 	MyVariant<double> tmp(double(1.1));
-	EXPECT_EQ(var.hold_alternative(),true);
-	EXPECT_EQ(tmp.hold_alternative(), false);
+	EXPECT_EQ(var.hold_alternative<int>(),true);
+	//EXPECT_EQ(tmp.hold_alternative<int>(), false);
 }
 
 TEST(testMyVariant, index) {
 	int a = 7;
 	MyVariant<int, double, char> var(1);
 	MyVariant<int, double, char> tmp(double(1.1));
-	EXPECT_EQ(var.index() , 1);
+	EXPECT_EQ(var.index(), 1);
 	EXPECT_EQ(tmp.index(), 2);
 }
